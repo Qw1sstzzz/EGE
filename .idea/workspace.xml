@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решение 5 задания из ЕГКР 21.12.24" />
+    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решение 7 задания из ЕГКР 21.12.24">
+      <change beforePath="$PROJECT_DIR$/ЕГКР-21-12-24/task-5-19237.py" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/task-5-19237.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,13 +116,22 @@
       <option name="project" value="LOCAL" />
       <updated>1735053824002</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Решение 7 задания из ЕГКР 21.12.24">
+      <option name="closed" value="true" />
+      <created>1735054280530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735054280530</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Решил 5 задание" />
     <MESSAGE value="Решение 5 задания из ЕГКР 21.12.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение 5 задания из ЕГКР 21.12.24" />
+    <MESSAGE value="Решение 7 задания из ЕГКР 21.12.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение 7 задания из ЕГКР 21.12.24" />
   </component>
 </project>
