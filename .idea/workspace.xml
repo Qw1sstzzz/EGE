@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решение 7 задания из ЕГКР 21.12.24" />
+    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Сортировка, настройка среды разработки" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +56,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\GPetrovskiy\Desktop\EGE\ЕГКР-21-12-24" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\пк\PycharmProjects\EGE\ЕГКР-21-12-24\Screenshots" />
+      <recent name="C:\Users\пк\PycharmProjects\EGE\ЕГКР-21-12-24\Programs" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -122,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735054280530</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Сортировка, настройка среды разработки">
+      <option name="closed" value="true" />
+      <created>1735240238225</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735240238225</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -130,6 +142,7 @@
     <MESSAGE value="Решил 5 задание" />
     <MESSAGE value="Решение 5 задания из ЕГКР 21.12.24" />
     <MESSAGE value="Решение 7 задания из ЕГКР 21.12.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение 7 задания из ЕГКР 21.12.24" />
+    <MESSAGE value="Сортировка, настройка среды разработки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сортировка, настройка среды разработки" />
   </component>
 </project>
