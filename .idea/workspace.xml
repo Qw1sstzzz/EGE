@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №13" />
+    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №15" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +48,8 @@
     "Python.Task-12-19244.executor": "Run",
     "Python.Task-13-19245.executor": "Run",
     "Python.Task-14-19246.executor": "Run",
+    "Python.Task-15-19247.executor": "Run",
+    "Python.Task-16-19248.executor": "Run",
     "Python.Task-2-19234.executor": "Run",
     "Python.Task-5-19237.executor": "Run",
     "Python.Task-6-19238.executor": "Run",
@@ -206,7 +208,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735247626474</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Решено задание №14">
+      <option name="closed" value="true" />
+      <created>1735247866035</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735247866035</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Решено задание №15">
+      <option name="closed" value="true" />
+      <created>1735248097045</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1735248097045</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,6 +241,8 @@
     <MESSAGE value="Решено задание №9 и №12" />
     <MESSAGE value="Решено задание №12" />
     <MESSAGE value="Решено задание №13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №13" />
+    <MESSAGE value="Решено задание №14" />
+    <MESSAGE value="Решено задание №15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №15" />
   </component>
 </project>
