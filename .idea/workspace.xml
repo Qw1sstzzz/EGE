@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание 1">
+    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Task-2-19234.executor": "Run",
+    "Python.Task-5-19237.executor": "Run",
     "Python.task-5-19237.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -146,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735241674919</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Решено задание №2">
+      <option name="closed" value="true" />
+      <created>1735242674661</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735242674661</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,6 +165,7 @@
     <MESSAGE value="Решение 7 задания из ЕГКР 21.12.24" />
     <MESSAGE value="Сортировка, настройка среды разработки" />
     <MESSAGE value="Решено задание 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решено задание 1" />
+    <MESSAGE value="Решено задание №2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №2" />
   </component>
 </project>
