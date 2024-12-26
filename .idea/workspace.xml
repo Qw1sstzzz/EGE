@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №9 и №12" />
+    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Task-12-19244.executor": "Run",
     "Python.Task-2-19234.executor": "Run",
     "Python.Task-5-19237.executor": "Run",
     "Python.Task-6-19238.executor": "Run",
@@ -187,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735247028295</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Решено задание №12">
+      <option name="closed" value="true" />
+      <created>1735247393961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735247393961</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +211,7 @@
     <MESSAGE value="Решено задание №6" />
     <MESSAGE value="Решено задание №8" />
     <MESSAGE value="Решено задание №9 и №12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №9 и №12" />
+    <MESSAGE value="Решено задание №12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №12" />
   </component>
 </project>
