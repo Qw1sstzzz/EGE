@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №2">
+    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Others/Task-4-19236.png" beforeDir="false" afterPath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Others/Task-4-19236.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
   "keyToString": {
     "Python.Task-2-19234.executor": "Run",
     "Python.Task-5-19237.executor": "Run",
+    "Python.Task-6-19238.executor": "Run",
     "Python.task-5-19237.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -155,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735242674661</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Решено задание №4">
+      <option name="closed" value="true" />
+      <created>1735244193729</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735244193731</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,6 +176,7 @@
     <MESSAGE value="Сортировка, настройка среды разработки" />
     <MESSAGE value="Решено задание 1" />
     <MESSAGE value="Решено задание №2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №2" />
+    <MESSAGE value="Решено задание №4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №4" />
   </component>
 </project>
