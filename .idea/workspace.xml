@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №1 (4606)" />
+    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №1 (9732)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +49,7 @@
     "Python.Task-1-4581.executor": "Run",
     "Python.Task-1-4606.executor": "Run",
     "Python.Task-1-9732.executor": "Run",
+    "Python.Task-1-9770.executor": "Run",
     "Python.task-5-19237.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -169,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735312125121</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Решено задание №1 (9732)">
+      <option name="closed" value="true" />
+      <created>1735312540842</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735312540842</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +200,7 @@
     <MESSAGE value="Решено задание №1 (1845)" />
     <MESSAGE value="Решено задание №1 (4581)" />
     <MESSAGE value="Решено задание №1 (4606)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №1 (4606)" />
+    <MESSAGE value="Решено задание №1 (9732)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №1 (9732)" />
   </component>
 </project>
