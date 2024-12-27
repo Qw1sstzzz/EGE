@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №15" />
+    <list default="true" id="ad7be168-72c1-45c3-b00a-5a26ebd54b91" name="Changes" comment="Решено задание №16">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Others/Task-1-19233.png" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Others/Task-1-19233.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Others/Task-11-19243.png" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Others/Task-11-19243.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Others/Task-4-19236.png" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Others/Task-4-19236.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Others/Task-7-19239.png" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Others/Task-7-19239.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Others/Task-9-19241.png" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Others/Task-9-19241.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Programs/Task-12-19244.py" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Programs/Task-12-19244.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Programs/Task-13-19245.py" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Programs/Task-13-19245.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Programs/Task-14-19246.py" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Programs/Task-14-19246.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Programs/Task-15-19247.py" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Programs/Task-15-19247.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Programs/Task-16-19248.py" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Programs/Task-16-19248.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Programs/Task-2-19234.py" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Programs/Task-2-19234.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Programs/Task-5-19237.py" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Programs/Task-5-19237.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Programs/Task-6-19238.py" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Programs/Task-6-19238.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variants/ЕГКР-21-12-24/Programs/Task-8-19240.py" beforeDir="false" afterPath="$PROJECT_DIR$/ЕГКР-21-12-24/Programs/Task-8-19240.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +42,12 @@
     &quot;assignee&quot;: &quot;Qw1sstzzz&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Qw1sstzzz/EGE.git",
-    "accountId": "d22d5d98-320c-407b-9aec-0ba6c52689b3"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Qw1sstzzz/EGE.git&quot;,
+    &quot;accountId&quot;: &quot;d22d5d98-320c-407b-9aec-0ba6c52689b3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,6 +66,7 @@
     "Python.Task-14-19246.executor": "Run",
     "Python.Task-15-19247.executor": "Run",
     "Python.Task-16-19248.executor": "Run",
+    "Python.Task-17-19249.executor": "Run",
     "Python.Task-2-19234.executor": "Run",
     "Python.Task-5-19237.executor": "Run",
     "Python.Task-6-19238.executor": "Run",
@@ -67,6 +84,7 @@
       <recent name="C:\Users\GPetrovskiy\Desktop\EGE\ЕГКР-21-12-24" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\пк\PycharmProjects\EGE" />
       <recent name="C:\Users\пк\PycharmProjects\EGE\Variants" />
       <recent name="C:\Users\пк\PycharmProjects\EGE\ЕГКР-21-12-24\Screenshots" />
       <recent name="C:\Users\пк\PycharmProjects\EGE\ЕГКР-21-12-24\Programs" />
@@ -224,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735248097045</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Решено задание №16">
+      <option name="closed" value="true" />
+      <created>1735248258209</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1735248258209</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +269,7 @@
     <MESSAGE value="Решено задание №13" />
     <MESSAGE value="Решено задание №14" />
     <MESSAGE value="Решено задание №15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №15" />
+    <MESSAGE value="Решено задание №16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решено задание №16" />
   </component>
 </project>
