@@ -31,4 +31,3 @@ for x in alph[1:35]:
     mostly = int(most_common(res_copy))
     if res % (mostly ** 2) == 0:
         print(x, res // (mostly ** 2))
-
