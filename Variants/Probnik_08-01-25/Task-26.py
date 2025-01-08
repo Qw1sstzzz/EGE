@@ -13,13 +13,11 @@ print(temp[:10])
 temp = sorted(temp, key=lambda x: x[0])
 print(temp[:100])
 
-
 passed_levels = []
 for i in temp:
     if i[0] <= K_start_skill:
         K_start_skill += i[1]
         passed_levels.append(i)
-        print(K_start_skill)
 
 print(len(passed_levels), K_start_skill)
 
