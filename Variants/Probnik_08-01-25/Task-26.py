@@ -22,3 +22,5 @@ for i in temp:
         print(K_start_skill)
 
 print(len(passed_levels), K_start_skill)
+
+# 66 645
