@@ -7,10 +7,10 @@ ans, last = [], []
 
 watermelons = sorted([i for i in data if 7000 <= i <= 12000], reverse=True)
 
-mass = 0
+mass = 0            # Прошлая масса арбузов
 for i in watermelons:
-    if i + mass <= V:
-        mass += i
+    if i + mass <= V:       # Если предыдущая масса + новая <= Максимально возможной
+        mass += i           # Обновляем использованную массу
         ans.append(i)
 
 print(len(ans), ans[-1])
