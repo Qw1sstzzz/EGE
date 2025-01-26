@@ -4,6 +4,7 @@ tracer(0)
 lt(90)
 m = 25
 screensize(2500, 2500)
+up()
 for i in range(9):
     fd(15*m)
     rt(90)
@@ -36,4 +37,4 @@ for x in range(-30, 30):
 update()
 done()
 
-# 32
+# 112
