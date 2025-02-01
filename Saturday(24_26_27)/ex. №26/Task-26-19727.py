@@ -1,4 +1,4 @@
-with open('26-19727-file.txt') as file:
+with open('Task-26-19727-file.txt') as file:
     M, N = map(int, file.readline().split())
     data = [int(i) for i in file]
 
