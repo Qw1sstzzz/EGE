@@ -6,7 +6,7 @@ def f(x):
     A = A1 <= x <= A2
     return (A <= P) or Q
 
-line = [x/5 for x in range(40*5, 55*5)]
+line = [x/5 for x in range(27*5, 55*5)]
 ans =[]
 
 for A1, A2 in combinations(line, r=2):
