@@ -6,11 +6,11 @@ def f(x):
     A = A1 <= x <= A2
     return (B <= A) and ((not C) or A)
 
-line = [x/5 for x in range(15*5, 55*5)]
+line = [x/5 for x in range(16*5, 52*5)]
 ans =[]
 
 for A1, A2 in combinations(line, r=2):
     if all(f(x) for x in line):
         ans.append(A2 - A1)
 
-print(max(ans))
+print(min(ans))
