@@ -13,5 +13,4 @@ for i in range(len(data) - 2):
         if (u1 + u2 + u3) == 3:
             if (p1 + p2 + p3) <= maxi:
                 res.append(p1 + p2 + p3)
-
 print(len(res), max(res))
