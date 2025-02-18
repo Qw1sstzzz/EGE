@@ -6,7 +6,7 @@ def f(x):
     Q = 75 <= x <= 118
     return (A and (not Q)) <= (P or Q)
 
-line = [i/5 for i in range(24*5, 119*5)]
+line = [i + eps for i in range(24, 119) for eps in (0, 0.1, 0.9)]
 res = []
 
 for A1, A2 in combinations(line, r=2):
