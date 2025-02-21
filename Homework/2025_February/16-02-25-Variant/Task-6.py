@@ -1,8 +1,8 @@
 from turtle import *
 
 lt(90)
-m = 25
-screensize(3500, 3500)
+m = 100
+screensize(10000, 10000)
 tracer(0)
 
 up()
@@ -23,7 +23,7 @@ up()
 for x in range(-30, 30):
     for y in range(-30, 30):
         goto(x*m, y*m)
-        dot(3, 'darkred')
+        dot(2, 'darkred')
 
 update()
 done()
