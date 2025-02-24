@@ -14,5 +14,5 @@ for r in range(6):
 
 ans = sorted(ans)
 
-for i in ans:
+for i in ans[1:]:
     print(*i)
