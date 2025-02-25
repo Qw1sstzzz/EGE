@@ -3,7 +3,6 @@ from itertools import *
 def qub(num):
     return sum(map(int, num))**3
 
-
 ans = []
 for r in range(7):
     for z in product('0123456789', repeat=r):
