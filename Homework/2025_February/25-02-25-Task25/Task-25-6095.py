@@ -14,7 +14,6 @@ for x in range(157424, 10**8+1):
 # Не досчитало
 '''
 
-'''
 
 
 ans = []
@@ -32,13 +31,12 @@ for r1 in range(2):
                 else:
                     if (x % 111 == 0) and (x % 113 != 0) and (x % 127 != 0):
                         ans.append([x, x//111])
-                    if (x % 111 != 0) and (x % 113 == 0) and (x % 127 != 0):
+                    elif (x % 111 != 0) and (x % 113 == 0) and (x % 127 != 0):
                         ans.append([x, x//113])
-                    if (x % 111 != 0) and (x % 113 != 0) and (x % 127 == 0):
+                    elif (x % 111 != 0) and (x % 113 != 0) and (x % 127 == 0):
                         ans.append([x, x//127])
 
 ans = sorted(ans)
 
 for i in ans:
     print(*i)
-'''
