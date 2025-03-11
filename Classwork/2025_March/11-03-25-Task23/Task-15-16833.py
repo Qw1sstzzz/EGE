@@ -1,5 +1,5 @@
 from itertools import combinations
-'''
+
 def f(x):
     P = 25 <= x <= 73
     Q = 75 <= x <= 118
@@ -14,13 +14,3 @@ for A1, A2 in combinations(line, r=2):
         ans.append(A2 - A1)
 
 print(max(ans))
-'''
-# ans = []
-# A = 1
-# f_usl = 1
-# for x in [k*0.25 for k in range(-10_000, 10_000)]:
-#     P = 25 <= x <= 73
-#     Q = 75 <= x <= 118
-#     f = (A and (not Q)) <= (P or Q)
-#     if f == f_usl:
-#         print(x)
