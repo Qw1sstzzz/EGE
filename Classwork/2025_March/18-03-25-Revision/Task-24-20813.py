@@ -17,19 +17,17 @@ data = data.replace('-', '*')
 while '**' in data: data = data.replace('**', '* *')
 for c in '89':
     data = data.replace(c, '7')
-for c in range(2, 50):
-    data = data.replace(f' {'0' * c}', ' 0')
-for v in range(2, 50):
-    data = data.replace(f' {'0' * c} ', ' 0 ')
-for v in range(2, 50):
-    data = data.replace(f'*{'0' * c}', '*0 0')
-for v in range(2, 50):
-    data = data.replace(f'*{'0' * c}*', '*0 0*')
+
+for i in range(1, 100):
+    data = data.replace(f'{'0'*i}')
 
 data = data.split()
+ans = []
 for i in data:
+    i = i.strip('*')
     if len(i) > m:
         if i.count('*') >= 1:
             m = max(len(i), m)
-print(m)
+            ans.append(i)
+print(max(ans, key=len), m)
 
