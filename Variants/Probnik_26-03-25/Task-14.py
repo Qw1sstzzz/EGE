@@ -4,6 +4,7 @@ def convert(num, sys):
         r += str(num % sys)
         num //= sys
     return r[::-1]
+
 ans = []
 for x in range(1, 2031):
     s = 2**2025 + 2**2024 - 2**2021 - x
