@@ -1,6 +1,6 @@
 from itertools import *
 
-alph = sorted('ЛУНАТИК')
+alph = sorted(set('ЛУНАТИК'))
 print(alph)
 ans = []
 for pos, val in enumerate(product(alph, repeat=6), start=1):
