@@ -4,6 +4,7 @@ def convert(num, sys):
         r += str(num % sys)
         num //= sys
     return r[::-1]
+
 ans = []
 for N in range(1, 10_000):
     s = convert(N, 4)
