@@ -9,7 +9,7 @@ with open('Task-26-file.txt') as file:
             end = arrive + (V // 10)
         data.append([arrive, V, end])
 
-data = sorted(data, key=lambda x: (x[2], -x[0], x[1]))
+data = sorted(data, key=lambda x: (x[2], -x[1], x[0]))
 
 approved = [data[0]]
 
