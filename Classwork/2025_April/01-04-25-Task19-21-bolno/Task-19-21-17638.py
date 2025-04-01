@@ -6,4 +6,4 @@ def f(x, m):
 
 print('19)', min([s for s in range(1, 39) if f(s, 2)]))
 print('20)', *([s for s in range(1, 39) if not f(s, 1) and f(s, 3)]))
-print('20)', min([s for s in range(1, 39) if not f(s, 2) and f(s, 4)]))
+print('21)', min([s for s in range(1, 39) if not f(s, 2) and f(s, 4)]))
