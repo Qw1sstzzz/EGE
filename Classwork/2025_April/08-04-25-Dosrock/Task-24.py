@@ -19,8 +19,8 @@ for i in data:
             if int(i, 12) % 2 == 0:
                 ans.append([len(i), i])
                 break
-            else:
-                continue
+        if int(i, 12) % 2 == 0:
+            ans.append([len(i), i])
 print(max(ans)[0])
 
 
