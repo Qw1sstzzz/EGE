@@ -36,8 +36,8 @@ def center(cl):
 centersA = [center(cl) for cl in clustersA]
 centersB = [center(cl) for cl in clustersB]
 pxA = sum(x for x, y in centersA) / 2 * 10_000
-pxB = sum(x for x, y in centersA) / 3 * 10_000
+pxB = sum(x for x, y in centersB) / 3 * 10_000
 pyA = sum(y for x, y in centersA) / 2 * 10_000
-pyB = sum(y for x, y in centersA) / 3 * 10_000
+pyB = sum(y for x, y in centersB) / 3 * 10_000
 print(int(pxA), int(pyA))
 print(int(pxB), int(pyB))
