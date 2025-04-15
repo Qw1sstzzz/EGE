@@ -12,7 +12,7 @@ with open('Task-27A-18050-file.txt') as file:
 with open('Task-27B-18050-file.txt') as file:
     for line in file:
         x, y = [float(k) for k in line.split()]
-        if y > x + 3:
+        if y > x + 3 and x < 6:
             clustersB[0].append([x, y])
         elif y < -2*x + 20:
             clustersB[1].append([x, y])
