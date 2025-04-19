@@ -3,9 +3,9 @@ from re import *
 with open('Task-24-21597-file.txt') as f:
     data = f.readline()
 
-num = r'([1-5][0-5]*)'
+num = r'[1-5][0-5]*'
 m = 0
-reg = rf'({num}[*])+({num}[-])+{num}'
+reg = rf'{num}([*]{num})*([-]{num})*'
 
 match = [x.group() for x in finditer(reg,data)]
 
