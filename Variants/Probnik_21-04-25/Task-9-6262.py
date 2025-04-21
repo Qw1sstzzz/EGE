@@ -15,6 +15,7 @@ def check2(arr):
 
 cnt = 0
 for i in data:
-    if check1(i) and check2(i):
+    if check1(i) and not check2(i) or\
+            check2(i) and not check1(i):
         cnt += 1
 print(cnt)
