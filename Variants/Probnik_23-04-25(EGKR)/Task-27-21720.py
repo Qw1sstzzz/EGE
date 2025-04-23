@@ -38,8 +38,8 @@ Px_B = sum(x for x, y in centersB) / 3 * 10_000
 Py_A = sum(y for x, y in centersA) / 2 * 10_000
 Py_B = sum(y for x, y in centersB) / 3 * 10_000
 
-print(int(Px_A), int(Py_A))
-print(int(Px_B), int(Py_B))
+print(abs(int(Px_A)), abs(int(Py_A)))
+print(abs(int(Px_B)), abs(int(Py_B)))
 
-# -32540 -13646
-# -47031 25263
+# 32540 13646
+# 47031 25263
