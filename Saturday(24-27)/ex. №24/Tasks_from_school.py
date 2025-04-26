@@ -1,4 +1,4 @@
-with open('Task-24-1-3-Counter.txt') as f:
+with open('Task_from_school_file_1.txt') as f:
     data = f.readline().strip()
 
 # 1
@@ -37,7 +37,7 @@ for i in range(len(data) - 1):
 # 39621
 '''
 
-with open('Task-24-4-8-Counter.txt') as file:
+with open('Task_from_school_file_2.txt') as file:
     data = file.readlines()
 
 # 4
