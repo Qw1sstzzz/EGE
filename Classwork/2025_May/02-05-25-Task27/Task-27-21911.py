@@ -51,7 +51,7 @@ PxA = sum([x for x, y in centersA]) / 2 * 10_000
 PyA = sum([y for x, y in centersA]) / 2 * 10_000
 
 PxB = sum([x for x, y in centersB]) / 3 * 10_000
-PyB = sum([y for x, y in centers2B]) / 3 * 10_000
+PyB = sum([y for x, y in centersB]) / 3 * 10_000
 
 print(int(PxA), int(PyA))
 print(int(PxB), int(PyB))
