@@ -5,8 +5,10 @@ def dell(num):
             r |= {i, num//i}
     return sorted(r)
 
+step = [2**k for k in range(1, 100)]
+
 def f(arr):
-    r = [j for j in arr if j in [2**k for k in range(1, 50)]]
+    r = [j for j in arr if j in step]
     if len(r) >= 20:
         return r
     return []
@@ -14,11 +16,11 @@ def f(arr):
 cnt = 0
 for n in range(10**6+1, 10**10):
     divs = dell(n)
-
-    if len(f(divs)) > 0:
+    func = f(divs)
+    if len(func) > 0:
         arr = []
         for i in divs:
-            if i not in f(divs):
+            if i not in func:
                 arr.append(i)
         if len(arr) < 1:
             print(n, 0)
