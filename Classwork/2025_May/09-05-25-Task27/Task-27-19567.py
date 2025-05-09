@@ -10,6 +10,7 @@ def center(cl):
         m.append([summ, c])
     return min(m)[1]
 
+'''
 with open('Task-27A-19567-file.txt') as f:
     dataA = [list(map(float, i.split())) for i in f]
 
@@ -26,7 +27,9 @@ while dataA:
     clustersA.append(cluster)
 
 # print([len(cl) for cl in clustersA])
+'''
 
+'''
 with open('Task-27B-19567-file.txt') as f:
     dataB = [list(map(float, i.split())) for i in f]
 
@@ -43,6 +46,34 @@ while dataB:
     clustersB.append(cluster)
 
 # print([len(cl) for cl in clustersB])
+'''
+clustersA = [[], []]
+with open('Task-27A-19567-file.txt') as f:
+    for line in f:
+        x, y = map(float, line.split())
+        if y < 0:
+           clustersA[0].append([x, y])
+        else:
+            clustersA[1].append([x, y])
+
+
+clustersB = [[], [], [], [], [], []]
+with open('Task-27B-19567-file.txt') as f:
+    for line in f:
+        x, y = map(float, line.split())
+        if y > x + 12:
+           clustersB[0].append([x, y])
+        elif (y < x + 12) and (-4 <= x <= 4) and (y > 7):
+            clustersB[1].append([x, y])
+        elif (y < x + 10) and (y > x + 4) and (2 < y < 7):
+            clustersB[2].append([x, y])
+        elif (y < x + 4) and (y > 4) and (2 < x <= 10):
+            clustersB[3].append([x, y])
+        elif (y < x -2) and (y < 3):
+            clustersB[4].append([x, y])
+        else:
+            clustersB[5].append([x, y])
+
 
 centersA = [center(cl) for cl in clustersA]
 centersB = [center(cl) for cl in clustersB]
