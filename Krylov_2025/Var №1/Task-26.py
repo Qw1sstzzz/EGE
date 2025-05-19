@@ -5,12 +5,14 @@ with open('26var01.txt') as f:
 ships = sorted(ships, key=lambda x: (x[0], -x[1]))
 placed = [M + 1] * (K + 1)
 
-ans = []
-for h, w in ships:
-    placed[w] = h
+for line in ships:
+    horiz, vert = line
+    placed[vert] = min(horiz, placed[vert])
 
-for i in range(1, len(placed) - 1):
-    p1, p2 = placed[i], placed[i + 1]
-    ans.append([min(p1, p2) - 1, i])
+res = [0, 0]
+for j in range(1, K):
+    max_r = min(placed[j], placed[j + 1]) - 1
+    if max_r > res[0]:
+        res = [max_r, j]
 
-print()
+print(*res)
