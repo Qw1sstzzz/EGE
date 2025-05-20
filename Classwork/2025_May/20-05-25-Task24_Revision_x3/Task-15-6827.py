@@ -7,7 +7,7 @@ def f(x):
     A = A1 <= x <= A2
     return (A <= R) and ((not (A <= P)) <= Q)
 
-line = [x/5 for x in range(5*5, 300*5)]
+line = [x+eps for x in range(5, 300) for eps in [0, 0.1, 0.9]]
 ans = []
 
 for A1, A2 in combinations(line, r=2):
