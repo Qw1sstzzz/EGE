@@ -6,8 +6,8 @@ ans = []
 minis = []
 for i in range(len(data) - 1):
     p1, p2 = data[i], data[i+1]
-    u1 = str(p1)[-1] == '1'
-    u2 = str(p2)[-1] == '1'
+    u1 = str(p1)[-1] == '3'
+    u2 = str(p2)[-1] == '3'
     if u1 + u2 == 1:
         minis.append(min(p1, p2))
 minik = str(min(minis))
