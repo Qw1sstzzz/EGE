@@ -9,7 +9,7 @@ for i in range(len(data) - 1):
     p1, p2 = data[i], data[i+1]
     if p1[0] == p2[0]:
         if abs(p1[1] - p2[1]) >= 2:
-            ans.append([p1[0], p2[1] - p1[1]])
+            ans.append([p1[0], p2[1] - p1[1] - 1])
 
 ans = sorted(ans,key=lambda x: (-x[1], -x[0]))
 
