@@ -12,11 +12,11 @@ data = data.split()
 
 for i in data:
     i = i.lstrip('0')
-    if len(i) > 2:
+    if len(i) > 1:
         if int(i, 12) % 2 == 0:
             ans.append([len(i), i])
     else:
-        while len(i) > 2 and int(i, 12) % 12 != 0:
+        while len(i) > 1 and int(i, 12) % 12 != 0:
             i = i[:-1]
         if len(i) > 2:
             if int(i, 12) % 12 == 0:
