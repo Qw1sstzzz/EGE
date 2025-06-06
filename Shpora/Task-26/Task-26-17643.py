@@ -1,4 +1,4 @@
-with open('test.txt') as f:
+with open('Task-26-17643-file.txt') as f:
     N = int(f.readline())
     data = dict()
     Avg_price = sum([int(i.split()[1]) for i in f]) / N
