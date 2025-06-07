@@ -10,9 +10,6 @@ for i in range(N):
         continue
     else:
         act.append(data[i])
-# Получаем общее количество мероприятий, которые могут пройти
-
-# print(len(act), abs(act[-2][1] - act[-1][0]), act[-2:], sep='\n')
 
 idx = data.index(act[-1])
 max_after_last = max(data[idx:])
