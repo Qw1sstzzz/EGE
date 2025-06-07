@@ -5,10 +5,10 @@ with open('Task-26-17537-file.txt') as f:
 seats = [M] * (K + 1)
 
 for h, v in data:
-    seats[v] = min(h - 1, seats[v])
+    seats[v] = min(h, seats[v])
 
 ans = []
 for j in range(2, K+1):
-    ans.append([min(seats[j], seats[j-1]), j])
+    ans.append([min(seats[j], seats[j-1]) - 1, j])
 
 print(*max(ans))
