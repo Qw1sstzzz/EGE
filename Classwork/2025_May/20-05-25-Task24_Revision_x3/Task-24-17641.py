@@ -11,8 +11,8 @@ m = 0
 for i in matches:
     if eval(i) == 0:
         m = max(m, len(i))
-    else:
-        for l in range(len(i) + 1):
+    elif len(i) > m:
+        for l in range(len(i)):
             for r in range(len(i), l, -1):
                 sub_str = i[l:r].strip('*+')
                 if len(sub_str) >= 2:
