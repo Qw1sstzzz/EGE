@@ -228,3 +228,28 @@
 
 
 8. Детали (9793)
+    Алгоритм:
+        with open('Task-26-9793-file.txt') as f:
+            N = int(f.readline())
+            details = []
+            for pos, i in enumerate(f, start=1):
+                sh, ok = map(int, i.split())
+                details.append([sh, 'sh', pos])
+                details.append([ok, 'ok', pos])
+
+        details = sorted(details)
+        conveyor = [0]*N
+        last = 0
+
+        for time, tip, num in details:
+            if num not in conveyor:
+                if tip == 'sh':
+                    vacant = conveyor.index(0)
+                    conveyor[vacant] = num
+                    last = num
+                else:
+                    vacant = N - conveyor[::-1].index(0) - 1
+                    conveyor[vacant] = num
+                    last = num
+
+        print(last, conveyor.index(last))
