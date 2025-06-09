@@ -121,110 +121,126 @@
     Суть: лидер продаж
     Идея: создать словарь и по артикулу записать о нем информации
     Алгоритм:
-        with open("26_17643.txt") as file:
-            n = int(file.readline())
-            products = {}
-            average = []
-            for i in file:
-                art, price, status = map(int, i.split())
-                average.append(price)
-                if art not in products:
-                    products[art] = [0, price, 0]
-                if status == 1:
-                    products[art][2] += 1   # кол-во остатков
-                else:
-                    products[art][0] += 1  # кол-во проданных
+        with open('Task-26-17643-file.txt') as f:
+            N = int(f.readline())
+            data = [list(map(int, i.split())) for i in f]
 
-        average = sum(average) / len(average)  # средняя цена
-        products = [i for i in products.values() if i[1] > average]  # находим в словаре и сохраняем в список дорогие товары
+        exp = []
+        Avg_price = sum([i[1] for i in data]) / N
+        for i in data:
+            if int(i[1]) > Avg_price:
+                exp.append(i)
 
-        products = sorted(products, key=lambda x: (-x[0], -x[1], x[2]))
-        leader = products[0]
+        all_exp = dict()
+        for i in exp:
+            ID, Price, State = i
+            all_exp[ID] = [0, Price, 0]
 
+        for i in exp:
+            ID, Price, State = i
+            if State == 0:
+                all_exp[ID][0] += 1
+            else:
+                all_exp[ID][-1] += 1
+
+        d = all_exp.values()
+
+        d = sorted(d, key=lambda x: (-x[0], -x[1], x[2]))
+
+        leader = d[0]
         print(leader[0] * leader[1], leader[2])
+
 
 9. Решенные задачи (19256, 21719)
     Суть: найти ученика с наибольшим кол-вом решенных задач в определенном порядке
     Идея: создаем словарь множеств, куда помещаем решенные задачи каждого студента
           перебираем каждого студента, сортируем его задачи, ищем самую длинную подходящую цепочку
     Алгоритм:
-        with open ('26_19256.txt') as file:
-            n = int(file.readline())
-            students = {}
-            for i in file:
-                ID, num = map(int, i.split())
-                if ID not in students:
-                    students[ID] = set()
-                students[ID] |= {num}
+        with open('Task-26-19256-file.txt') as f:
+            N = int(f.readline())
+            data = [list(map(int, i.split())) for i in f]
+
+        data = sorted(data)
+        exercises = dict()
+        for i in data:
+            ID, Num = i
+            if ID not in exercises:
+                exercises[ID] = [Num]
+            else:
+                if Num not in exercises[ID]:
+                    exercises[ID].append(Num)
 
         ans = []
-        for ID in students:
-            student = sorted(students[ID])
-            cnt = 1
-            max_cnt = 0
-            for i in range(len(students) - 1):
-                task1, task2 = students[i], students[i + 1]
-                if task2 - task1 == 1:
-                        cnt += 1
+        for i in exercises.items():
+            ID = i[0]
+            Tasks = i[1]
+            cnt = 0
+            c_p = 1
+            for j in range(len(Tasks) - 1):
+                if Tasks[j+1] - Tasks[j] == 1:
+                    c_p += 1
                 else:
-                    cnt = 1
-                max_cnt = max(max_cnt, cnt)
-            ans.append([max_cnt, student])
+                    c_p = 1
+                cnt = max(c_p, cnt)
+            ans.append([ID, cnt])
 
-        ans = sorted(ans, key=lambda x: (-x[0], x[1]))
-        print(ans[0)
+        ans = sorted(ans, key=lambda x: (-x[1], x[0]))
+
+        print(*ans[0])
 
 
 10. Камеры хранения (7602, 7626, 8512)
     Суть: определить сколько будет обслужено клиентов
     Идея: сортируем посетителей по времени прихода, создаем список камер хранения, запоминаем, когда освободится ячейка
     Алгоритм:
-        with open("26_7602.txt") as file:
-            k = int(file.readline())
-            n = int(file.readline())
-            clients = [list(map(int, i.split())) for i in file]
+        with open('Task-26-7602-file.txt') as f:
+            K = int(f.readline())
+            N = int(f.readline())
+            time = [list(map(int, i.split())) for i in f]
 
-        clients = sorted(clients)
-        last = 0
+        luggage = [0] * K
+        time = sorted(time)
+
         cnt = 0
-        rooms = [0] * (k + 1)
-        for c in clients:
-            for i in range(1, len(rooms)):
-                if c[0] >= rooms[i]:
-                    rooms[i] = c[1] + 1
+        last = 0
+        for t in time:
+            for i in range(K):
+                if t[0] >= luggage[i] + 1:
+                    luggage[i] = t[1]
                     cnt += 1
-                    last = i
+                    last = i + 1
                     break
 
         print(cnt, last)
 
 
 11. Пик посещаемости (9847)
-    Суть:
-    Идея:
     Алгоритм:
-        with open('26_9847.txt') as f:
+        with open('Task-26-9847-file.txt') as f:
             N = int(f.readline())
-            arr = [list(map(int, i.split())) for i in f if i]
+            data = [list(map(int, i.split())) for i in f]
 
-        arr = sorted(arr)
-        day = [0] * 1441
-        for st, fn in arr:
-            for i in range(st, fn):
-                day[i] += 1
+        timeline = [0] * (60*24)
 
-        m = max(day)
+        for i in data:
+            start, end = i
+            for k in range(start, end):
+                timeline[k] += 1
+
         res = []
-        for i in range(len(day)):
-            if day[i] == m:
-                res.append(i)
+        peak = max(timeline)
+
+        for l in range(len(timeline)):
+            if timeline[l] == peak:
+                res.append(l)
 
         cnt = 1
-        for i in range(len(res) - 1):
-            p1, p2 = res[i: i + 2]
-            if p2 - p1 > 1:
+
+        for k in range(len(res) - 1):
+            if res[k+1] - res[k] != 1:
                 cnt += 1
-        print(cnt, m)
+
+        print(cnt, peak)
 
 
 8. Детали (9793)
