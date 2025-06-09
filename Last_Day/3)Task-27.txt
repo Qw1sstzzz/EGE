@@ -1,0 +1,18 @@
+# 1 -> X и Y медианы кластеров
+    def med(cl, ax): # cl - кластер, ax - направление (x, y)
+        all_x = [i[ax] for i in cl] # сохраняем сюда все координаты (либо x, либо y)
+        for x in all_x:
+            left, right = 0, 0
+            for i in cl:
+                if i[ax] < x: left += 1
+                if i[ax] > x: right += 1
+            if left == right:
+                return x
+
+# 2 -> Расстояние между кластерами
+    def r_cl(cl1, cl2):
+        m = []
+        for t1 in cl1:
+            for t2 in cl2:
+                m.append([d(t1, t2), (t1, t2)])
+        return min(m)[1]
