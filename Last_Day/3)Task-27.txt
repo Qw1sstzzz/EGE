@@ -16,3 +16,54 @@
             for t2 in cl2:
                 m.append([d(t1, t2), (t1, t2)])
         return min(m)[1]
+
+# 3 -> Диагональ кластера
+    def f(cl):
+        m = []
+        for dot in cl:
+            for dot2 in cl:
+                m.append([d(dot, dot2), (dot, dot2)])
+        return max(m)[1]
+
+# 4 -> Плотность кластера
+    def pl(cl):
+        kl_c = []
+        for c in cl:
+            cnt = 0
+            for p in cl:
+                if d(c, p) < 1:
+                    cnt += 1
+            kl_c.append(cnt)
+        return sum(kl_c) \ len(kl_c)
+
+# 5 -> Изолированная точка
+    def izolated_dot(cl):
+        m = []
+        for dot in cl:
+            cnt = 0
+            for dot2 in cl:
+                if d(dot2, dot) <= 1:
+                    cnt += 1
+            m.append([cnt, dot])
+        return min(m)[1]
+
+# 6 -> Точка наведения
+    def naved(cl):
+        m = []
+        for dot in cl:
+            cnt = 0
+            for dot2 in cl:
+                if d(dot2, dot) <= 1:
+                    cnt += 1
+            m.append([cnt, dot])
+        m = sorted(m, key=lambda x: -x[0])
+        return max(m)[1]
+
+# 7 -> Среднее расстояние S
+    from itertools import combinations
+
+    def av_s(cl):
+        m = []
+        for dot, dot2 in combinations(cl, r=2):
+            m.append(d(dot, dot2))
+        return sum(m) / len(m)
