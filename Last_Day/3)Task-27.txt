@@ -34,7 +34,7 @@
                 if d(c, p) < 1:
                     cnt += 1
             kl_c.append(cnt)
-        return sum(kl_c) \ len(kl_c)
+        return sum(kl_c) / len(kl_c)
 
 # 5 -> Изолированная точка
     def izolated_dot(cl):
@@ -56,7 +56,6 @@
                 if d(dot2, dot) <= 1:
                     cnt += 1
             m.append([cnt, dot])
-        m = sorted(m, key=lambda x: -x[0])
         return max(m)[1]
 
 # 7 -> Среднее расстояние S
